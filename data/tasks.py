@@ -17,7 +17,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import collections
+import collections, json
 import functools
 
 from data import postprocessors
@@ -332,3 +332,4 @@ TaskRegistry.add(
     metric_fns=[],
     token_preprocessor=preprocessors.trivia_qa_truncate_inputs,
     sentencepiece_model_path=DEFAULT_SPM_PATH)
+print(json.dumps(list(TaskRegistry.names()), ensure_ascii=False))
