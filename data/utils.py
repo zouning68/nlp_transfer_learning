@@ -47,7 +47,7 @@ _TFDS_DATA_DIR_OVERRIDE = None
 _GLOBAL_CACHE_DIRECTORIES = []
 
 DEFAULT_SPM_PATH = "gs://t5-data/vocabs/cc_all.32000/sentencepiece.model"  # GCS
-
+DEFAULT_SPM_PATH = "D:/Python Project/nlp_transfer_learning-master/model_file/vocabs_cc_all.32000_sentencepiece.model"
 
 def set_tfds_data_dir_override(tfds_data_dir):
   global _TFDS_DATA_DIR_OVERRIDE
