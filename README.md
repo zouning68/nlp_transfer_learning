@@ -1,6 +1,8 @@
 # nlp_transfer_learning
 nlp transfer learning
 
-tfds data set: https://console.cloud.google.com/storage/browser/tfds-data/
+SRC_BASE_URL = "https://github.com/tensorflow/datasets/tree/master/"
 
-model: https://console.cloud.google.com/storage/browser/t5-data/
+GCS_DATA_DIR = https://console.cloud.google.com/storage/browser/tfds-data/
+
+MODEL = https://console.cloud.google.com/storage/browser/t5-data/
