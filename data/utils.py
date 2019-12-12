@@ -45,10 +45,10 @@ _SHUFFLE_BUFFER_SIZE = 1000
 
 _TFDS_DATA_DIR_OVERRIDE = None
 _GLOBAL_CACHE_DIRECTORIES = []
-
+grader_father=os.getcwd()#os.path.abspath(os.path.dirname(os.getcwd())+os.path.sep+".")
 DEFAULT_SPM_PATH = "gs://t5-data/vocabs/cc_all.32000/sentencepiece.model"  # GCS
 DEFAULT_SPM_PATH = "D:/Python Project/nlp_transfer_learning-master/model_file/vocabs_cc_all.32000_sentencepiece.model"
-
+DEFAULT_SPM_PATH = "model_file/vocabs_cc_all.32000_sentencepiece.model"
 def set_tfds_data_dir_override(tfds_data_dir):
   global _TFDS_DATA_DIR_OVERRIDE
   _TFDS_DATA_DIR_OVERRIDE = tfds_data_dir
