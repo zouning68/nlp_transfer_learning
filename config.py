@@ -52,7 +52,7 @@ flags.DEFINE_enum("mode", "train", ["train", "eval", "predict", "finetune"], "Mo
 # Train mode args
 flags.DEFINE_integer("train_steps", 1000, "Number of training iterations.")
 
-flags.DEFINE_string("mixture_or_task", "glue_mrpc_v002", "Name of Mixture or Task to use for training/evaluation.")  # wmt_t2t_ende_v003
+flags.DEFINE_string("mixture_or_task", "wmt_t2t_ende_v003", "Name of Mixture or Task to use for training/evaluation.")  # wmt_t2t_ende_v003
 flags.DEFINE_string("pretrained_model_dir", "", "Pretrained model dir for finetuning a model.")
 
 # Eval mode args
